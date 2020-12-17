@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.SubsidyRuleDao">
+  <resultMap id="BaseResultMap" type="com.example.model.SubsidyRule">
+    <!--@mbg.generated-->
+    <!--@Table subsidy_rule-->
+    <id column="SUBSIDY_ID" jdbcType="VARCHAR" property="subsidyId" />
+    <result column="SUBSIDY_NAME" jdbcType="VARCHAR" property="subsidyName" />
+    <result column="POLICY_BASIS" jdbcType="VARCHAR" property="policyBasis" />
+    <result column="USER_PROVINCE" jdbcType="VARCHAR" property="userProvince" />
+    <result column="USE_CITY" jdbcType="VARCHAR" property="useCity" />
+    <result column="CAPITAL_SOURCE" jdbcType="VARCHAR" property="capitalSource" />
+    <result column="EXECUTION_TIME" jdbcType="TIMESTAMP" property="executionTime" />
+    <result column="PROVIDE_PERIOD" jdbcType="VARCHAR" property="providePeriod" />
+    <result column="SUBSIDY_AREA" jdbcType="VARCHAR" property="subsidyArea" />
+    <result column="CREATE_ID" jdbcType="VARCHAR" property="createId" />
+    <result column="CREATE_NAME" jdbcType="VARCHAR" property="createName" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="DATA_STATUS" jdbcType="VARCHAR" property="dataStatus" />
+    <result column="RELEASE_STATUS" jdbcType="VARCHAR" property="releaseStatus" />
+    <result column="EFFECT_DATE" jdbcType="TIMESTAMP" property="effectDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    SUBSIDY_ID, SUBSIDY_NAME, POLICY_BASIS, USER_PROVINCE, USE_CITY, CAPITAL_SOURCE, 
+    EXECUTION_TIME, PROVIDE_PERIOD, SUBSIDY_AREA, CREATE_ID, CREATE_NAME, CREATE_TIME, 
+    UPDATE_TIME, DATA_STATUS, RELEASE_STATUS, EFFECT_DATE
+  </sql>
+
+
+
+</mapper>

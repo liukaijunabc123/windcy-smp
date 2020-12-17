@@ -1,0 +1,30 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: windcy
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/windcy-smp? useUnicode=true & useSSL=false &
+                   characterEncoding=utf-8 & serverTimezone=Asia/Shanghai & allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 9090
+  servlet:
+    context-path: /windcy-smp
+
+mybatis-plus:
+  typeAliasesPackage: cn.nepsp.handle.standard.entity
+  #扫描mapper.xml文件
+  mapper-locations: classpath*:/mybatis/*.xml
+
+# 配置日志
+logging:
+  level:
+    root: info
+    com:
+      example:
+        dao: debug

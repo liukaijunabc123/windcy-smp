@@ -1,0 +1,12 @@
+com\windcy\WindcyApplication.class
+com\example\entity\R.class
+com\example\model\SubsidyRule.class
+com\example\entity\SuccessResponse.class
+com\windcy\config\GeneratorCodeConfig.class
+com\example\entity\ResponseEntity.class
+com\example\service\ISubsidyRuleService.class
+com\example\controller\SubsidyRuleController.class
+com\example\entity\ErrorResponse.class
+com\example\mapper\SubsidyRuleMapper.class
+com\example\service\impl\SubsidyRuleServiceImpl.class
+com\windcy\dao\test.class
